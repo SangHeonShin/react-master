@@ -68,6 +68,7 @@ function Coins() {
     queryKey: ["allCoins"],
     queryFn: fetchCoins,
   });
+  // console.log(isLoading, data);
 
   return (
     <Container>
